@@ -16,7 +16,6 @@ const CSVWrite = (filePath, data, encoding = 'utf-8') => {
         });
     };
     return new Promise(promiseCallback);
-    
 };
 
 const start = async () => {
