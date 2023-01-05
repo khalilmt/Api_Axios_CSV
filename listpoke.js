@@ -36,7 +36,6 @@ const start = async () => {
         fileData.push(data.weight);
                 
         fileData.push(data.types[0].type.name);
-        
         fileData.push(data.types[1]?.type.name);
         
         //console.log(data.types);
